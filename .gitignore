@@ -4,3 +4,4 @@
 .env.php
 .env
 .idea
+composer.lock
