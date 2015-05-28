@@ -1,0 +1,25 @@
+{
+	"name": "kodmate/kodmate",
+	"description": "New generation content management system.",
+	"keywords": ["kodmate", "cms", "kodmatecms", "framework", "laravel"],
+	"license": "MIT",
+	"type": "project",
+	"require": {
+		"laravel/framework": "5.0.*"
+	},
+	"require-dev": {
+		"phpspec/phpspec": "~2.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Mate\\": "libraries/"
+		}
+	},
+	"scripts": {
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
